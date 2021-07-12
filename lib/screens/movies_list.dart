@@ -25,6 +25,7 @@ class _MoviesListState extends State<MoviesList> {
     final _width = sizeConfig.safeWidth * 100;
     return Scaffold(
       floatingActionButton: FloatingActionButton(
+        child: Center(child: Icon(Icons.format_size)),
         onPressed: () {
           showModalBottomSheet(
             context: context,
